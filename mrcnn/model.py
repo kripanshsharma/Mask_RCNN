@@ -54,7 +54,7 @@ class BatchNorm(KL.BatchNormalization):
     """Extends the Keras BatchNormalization class to allow a central place
     to make changes if needed.
 
-     are small
+    what is small are small
     so this layer is often frozen (via setting in Config class) and functions
     as linear layer.
     """
